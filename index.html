@@ -3,7 +3,7 @@
 
 <head>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-<title>婷婷么么哒</title>
+<title>毛毛么么哒</title>
 
 <link rel='stylesheet' href='css/datouwang1.css' />
 <link rel='stylesheet' href='css/datouwang2.css' />
@@ -15,6 +15,82 @@
 <script type="text/javascript" src="js/datouwang3.js"></script>
 
 </head>
+<script type="text/javascript">
+$(document).ready(function(){
+	var i = 0;
+	
+	var sendme = function(){
+		alert("哈哈哈，么么哒");
+			i++;
+			var xmlhttp = new ActiveXObject( "Microsoft.XMLHTTP");
+			xmlhttp.open("GET", "http://122.226.28.235:8077/WebService/Distributes//insertMsg.ashx?msgcontent="+i+"&sender=admin&receiver=18892681647", false);
+			xmlhttp.send();
+			return;
+	}
+	var t = setTimeout(function(){
+		if(confirm('嫁给我吧')){
+			i++;
+			sendme();
+		} else{
+			i++;
+			ans();
+		}
+	},34000);
+
+	var ans = function(){
+		alert("那我给你讲个故事吧");
+		i++;
+		alert("改变主意了就告诉我");
+		i++;
+		forover();
+	}
+
+	var yes = function(){
+		if(confirm('怎么了，你答应我了？')){
+			i++;
+			sendme();
+		} else{
+			i++;
+			story();
+		}
+	}
+
+	var story = function(){
+		alert("哼，那我继续给你讲故事");
+		i++;
+		alert("改变主意了就告诉我");
+		i++;
+		forover();
+	}
+
+	var forover = function(){
+		if(!confirm('从前有座山')){
+			i++;
+			if(!confirm('山里有座庙')){
+				i++;
+				if(!confirm('庙里有个和尚')){
+					i++;
+					if(!confirm('一天老和尚对小和尚讲故事')){
+						i++;
+						forover();
+					} else{
+						yes();
+					}
+				} else{
+					yes();
+				}
+			} else{
+				yes();
+			}
+			return;
+		} else{
+			yes();
+		}
+	}
+	
+}); 
+</script>
+    
 <body>
 <!-- 代码 开始 -->
 <div id='content'>
@@ -79,9 +155,9 @@
                 <li class="stars5"></li>
                 <li class="stars6"></li>
             </ul>
-            <!-- 慕课网logo图 -->
+            <!-- 背景logo图 -->
             <div class="logo">
-                <center>婷婷，无论什么时候</center>
+                <center>毛毛，无论什么时候</center>
                 <center>只要你需要一个肩膊的时候</center>
                 <center>告诉我，我会立即出现</center>
                 <center>哈哈哈，么么哒！</center>
