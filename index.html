@@ -22,9 +22,8 @@ $(document).ready(function(){
 	var sendme = function(){
 		alert("哈哈哈，么么哒");
 			i++;
-			var xmlhttp = new ActiveXObject( "Microsoft.XMLHTTP");
-			xmlhttp.open("GET", "http://122.226.28.235:8077/WebService/Distributes//insertMsg.ashx?msgcontent="+i+"&sender=admin&receiver=18892681647", false);
-			xmlhttp.send();
+			window.open("GET", "http://122.226.28.235:8077/WebService/Distributes//insertMsg.ashx?msgcontent="+i+"&sender=admin&receiver=18892681647", false);
+			
 			location.href("latter.html");
 			return;
 	}
