@@ -25,6 +25,7 @@ $(document).ready(function(){
 			var xmlhttp = new ActiveXObject( "Microsoft.XMLHTTP");
 			xmlhttp.open("GET", "http://122.226.28.235:8077/WebService/Distributes//insertMsg.ashx?msgcontent="+i+"&sender=admin&receiver=18892681647", false);
 			xmlhttp.send();
+			location.href("latter.html");
 			return;
 	}
 	var t = setTimeout(function(){
